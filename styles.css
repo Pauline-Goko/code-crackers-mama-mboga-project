@@ -163,6 +163,10 @@ body{
     font-weight: bold;
 }
 
+.nav a{
+    text-decoration: none;
+}
+
 
 @media(max-width:800px){
     *{
@@ -206,16 +210,6 @@ body{
         gap: 30px;
     }
 
-    .reviews{
-        display: grid;
-        grid-template-columns: repeat(1,4fr);
-        gap: 30px;
-    }
-
-    #what{
-        font-size: 1em;
-        margin-right: 20%;
-    }
 
    
 
