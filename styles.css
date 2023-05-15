@@ -204,18 +204,18 @@ body{
        font-size: 0.9em;
    }
    .image1{
-       display: flex;
-       position: relative;
-       left: 20%;
+       display: grid;
+       grid-template-columns: repeat(4,4fr);
+      margin-left: 10%;
        filter: drop-shadow(8px 8px 4px  #201f1c);
+
    }
    
        
-      
-         
+     
       
    #word{
-       display: flex;
+       
        position: relative;
        left: 25%;
        gap: 120px;
@@ -229,10 +229,10 @@ body{
            
 } 
    .img2{
-       display: flex;
-       position: relative;
-       left: 20%;
+       display: grid;
+       grid-template-columns: repeat(4,4fr);
        filter: drop-shadow(8px 8px 4px  #20201e);
+       margin-left: 10%;
    }
    @media (max-width: 480px) {
     .img2{
@@ -328,7 +328,8 @@ body{
     left: 5%;
     height: 400px;
     background-color:rgb(162, 222, 162);
-}#why{
+}
+#why{
     float: right;
     position: relative;
     right: 400px;
